@@ -13,15 +13,11 @@ Web application for managing law firm operations.
 ```
 cd backend
 py -3 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-copy .env.example .env   # then edit .env
 ```
 
 ### Frontend
 ```
 cd frontend
 npm install
-copy .env.example .env.local   # then edit
 npm run dev
 ```
